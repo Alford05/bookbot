@@ -1,7 +1,7 @@
 def main():
     with open("books/frankenstein.txt") as f:
         file_contents = f.read()
-    (file_contents)
+    print(file_contents)
     
 def read_file():
      with open("books/frankenstein.txt") as f:
