@@ -1,5 +1,5 @@
 def main():
-    word_count - 0
+    word_count = 0
     with open("books/frankenstein.txt") as f:
             for line in f:
                  words = line.split()
