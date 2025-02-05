@@ -14,15 +14,15 @@ def word_counting():
     return word_count
 print(word_counting())
 
-def letter_counting()
+def letter_counting():
     counts = {}
     for char in read_file():
         if char.lower() in counts:
-            counts[char.lower()] =+ 1
+            counts[char.lower()] += 1
         else:
             counts[char.lower()] = 1
     return counts
-print(leter_counting())
+print(letter_counting())
 
 if __name__ =="__main__":
     main()
