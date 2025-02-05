@@ -14,6 +14,13 @@ def word_counting():
     return word_count
 print(word_counting())
 
+counts = {}
+for char in read_file():
+    if char.lower() in counts:
+        counts[char] =+ 1
+    else:
+        counts[char.lower()] = 1
+print(counts)
+
 if __name__ =="__main__":
     main()
-    
