@@ -17,7 +17,7 @@ print(word_counting())
 counts = {}
 for char in read_file():
     if char.lower() in counts:
-        counts[char] =+ 1
+        counts[char.lower()] =+ 1
     else:
         counts[char.lower()] = 1
 print(counts)
