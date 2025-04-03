@@ -14,7 +14,7 @@ def word_counting():
     word_count = 0
     word_count += len(read_file().split())
     return word_count
-print(word_counting(), "words found in the text")
+print(word_counting(), "words found in the document")
 
 def letter_counting():
     counts = {}
